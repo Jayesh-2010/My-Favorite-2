@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.game{
+    width: 400px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin-top:60px;
+}
+
+#About{
+    position: absolute;
+    
+    color:chartreuse;
+ 
+    bottom: 0;
+    background-color:darkorchid;
+    display: table;
+    width:100%;
+    height: 100%;
+   
+}
+
+h1{
+    
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Satisfy', cursive;
+    font-weight: 300;
+    
+    
+}
+
+
+#name{
+    
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+    
+    
+    
+}
+
+h2{
+    
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cherry Swash', cursive;
+    font-weight: 300;
+    
+    
+    
+}
+
+#hobby{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.3;
+    font-family: 'Are You Serious', cursive;
+}
+
+.parallax-inner{
+ 
+    
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.menu{
+    list-style: none;
+    position:fixed;
+    background-color:darkorange;
+    margin-top:0px;
+    top:0px;
+    width:100%;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+
+.links{
+    display: inline;
+    color: cornsilk;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family:fantasy;
+    font-size: 20px;
+    
+}
+
+.links:hover{
+    font-size: 25px;
+    background-color:cornflowerblue;
+    text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
